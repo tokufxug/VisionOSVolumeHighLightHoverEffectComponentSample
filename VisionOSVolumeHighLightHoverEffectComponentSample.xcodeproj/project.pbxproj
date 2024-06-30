@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A1294EC2C31915000BD3442 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 1A1294EB2C31915000BD3442 /* RealityKitContent */; };
+		1A1294EE2C31915000BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1294ED2C31915000BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSampleApp.swift */; };
+		1A1294F02C31915000BD3442 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1294EF2C31915000BD3442 /* ContentView.swift */; };
+		1A1294F22C31915100BD3442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1294F12C31915100BD3442 /* Assets.xcassets */; };
+		1A1294F52C31915100BD3442 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1294F42C31915100BD3442 /* Preview Assets.xcassets */; };
+		1A1295002C31915200BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1294FF2C31915200BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSampleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A1294FC2C31915200BD3442 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A1294DE2C31915000BD3442 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A1294E52C31915000BD3442;
+			remoteInfo = VisionOSVolumeHighLightHoverEffectComponentSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A1294E62C31915000BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionOSVolumeHighLightHoverEffectComponentSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A1294EA2C31915000BD3442 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		1A1294ED2C31915000BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionOSVolumeHighLightHoverEffectComponentSampleApp.swift; sourceTree = "<group>"; };
+		1A1294EF2C31915000BD3442 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A1294F12C31915100BD3442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A1294F42C31915100BD3442 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A1294F62C31915100BD3442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A1294FB2C31915200BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionOSVolumeHighLightHoverEffectComponentSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A1294FF2C31915200BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionOSVolumeHighLightHoverEffectComponentSampleTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A1294E32C31915000BD3442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1294EC2C31915000BD3442 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A1294F82C31915200BD3442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A1294DD2C31915000BD3442 = {
+			isa = PBXGroup;
+			children = (
+				1A1294E82C31915000BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSample */,
+				1A1294E92C31915000BD3442 /* Packages */,
+				1A1294FE2C31915200BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSampleTests */,
+				1A1294E72C31915000BD3442 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A1294E72C31915000BD3442 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A1294E62C31915000BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSample.app */,
+				1A1294FB2C31915200BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A1294E82C31915000BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSample */ = {
+			isa = PBXGroup;
+			children = (
+				1A1294ED2C31915000BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSampleApp.swift */,
+				1A1294EF2C31915000BD3442 /* ContentView.swift */,
+				1A1294F12C31915100BD3442 /* Assets.xcassets */,
+				1A1294F62C31915100BD3442 /* Info.plist */,
+				1A1294F32C31915100BD3442 /* Preview Content */,
+			);
+			path = VisionOSVolumeHighLightHoverEffectComponentSample;
+			sourceTree = "<group>";
+		};
+		1A1294E92C31915000BD3442 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				1A1294EA2C31915000BD3442 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		1A1294F32C31915100BD3442 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1A1294F42C31915100BD3442 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A1294FE2C31915200BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A1294FF2C31915200BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSampleTests.swift */,
+			);
+			path = VisionOSVolumeHighLightHoverEffectComponentSampleTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A1294E52C31915000BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A1295032C31915200BD3442 /* Build configuration list for PBXNativeTarget "VisionOSVolumeHighLightHoverEffectComponentSample" */;
+			buildPhases = (
+				1A1294E22C31915000BD3442 /* Sources */,
+				1A1294E32C31915000BD3442 /* Frameworks */,
+				1A1294E42C31915000BD3442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisionOSVolumeHighLightHoverEffectComponentSample;
+			packageProductDependencies = (
+				1A1294EB2C31915000BD3442 /* RealityKitContent */,
+			);
+			productName = VisionOSVolumeHighLightHoverEffectComponentSample;
+			productReference = 1A1294E62C31915000BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A1294FA2C31915200BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A1295062C31915200BD3442 /* Build configuration list for PBXNativeTarget "VisionOSVolumeHighLightHoverEffectComponentSampleTests" */;
+			buildPhases = (
+				1A1294F72C31915200BD3442 /* Sources */,
+				1A1294F82C31915200BD3442 /* Frameworks */,
+				1A1294F92C31915200BD3442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A1294FD2C31915200BD3442 /* PBXTargetDependency */,
+			);
+			name = VisionOSVolumeHighLightHoverEffectComponentSampleTests;
+			productName = VisionOSVolumeHighLightHoverEffectComponentSampleTests;
+			productReference = 1A1294FB2C31915200BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A1294DE2C31915000BD3442 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					1A1294E52C31915000BD3442 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					1A1294FA2C31915200BD3442 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 1A1294E52C31915000BD3442;
+					};
+				};
+			};
+			buildConfigurationList = 1A1294E12C31915000BD3442 /* Build configuration list for PBXProject "VisionOSVolumeHighLightHoverEffectComponentSample" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A1294DD2C31915000BD3442;
+			productRefGroup = 1A1294E72C31915000BD3442 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A1294E52C31915000BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSample */,
+				1A1294FA2C31915200BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A1294E42C31915000BD3442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1294F52C31915100BD3442 /* Preview Assets.xcassets in Resources */,
+				1A1294F22C31915100BD3442 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A1294F92C31915200BD3442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A1294E22C31915000BD3442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1294F02C31915000BD3442 /* ContentView.swift in Sources */,
+				1A1294EE2C31915000BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A1294F72C31915200BD3442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1295002C31915200BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A1294FD2C31915200BD3442 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A1294E52C31915000BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSample */;
+			targetProxy = 1A1294FC2C31915200BD3442 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A1295012C31915200BD3442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		1A1295022C31915200BD3442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		1A1295042C31915200BD3442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisionOSVolumeHighLightHoverEffectComponentSample/Preview Content\"";
+				DEVELOPMENT_TEAM = ED5R9E794B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.1planet.visionos.sample.environment.first.VisionOSVolumeHighLightHoverEffectComponentSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Debug;
+		};
+		1A1295052C31915200BD3442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisionOSVolumeHighLightHoverEffectComponentSample/Preview Content\"";
+				DEVELOPMENT_TEAM = ED5R9E794B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.1planet.visionos.sample.environment.first.VisionOSVolumeHighLightHoverEffectComponentSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Release;
+		};
+		1A1295072C31915200BD3442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ED5R9E794B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.1planet.visionos.sample.environment.first.VisionOSVolumeHighLightHoverEffectComponentSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionOSVolumeHighLightHoverEffectComponentSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VisionOSVolumeHighLightHoverEffectComponentSample";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		1A1295082C31915200BD3442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ED5R9E794B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.1planet.visionos.sample.environment.first.VisionOSVolumeHighLightHoverEffectComponentSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionOSVolumeHighLightHoverEffectComponentSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VisionOSVolumeHighLightHoverEffectComponentSample";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A1294E12C31915000BD3442 /* Build configuration list for PBXProject "VisionOSVolumeHighLightHoverEffectComponentSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A1295012C31915200BD3442 /* Debug */,
+				1A1295022C31915200BD3442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A1295032C31915200BD3442 /* Build configuration list for PBXNativeTarget "VisionOSVolumeHighLightHoverEffectComponentSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A1295042C31915200BD3442 /* Debug */,
+				1A1295052C31915200BD3442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A1295062C31915200BD3442 /* Build configuration list for PBXNativeTarget "VisionOSVolumeHighLightHoverEffectComponentSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A1295072C31915200BD3442 /* Debug */,
+				1A1295082C31915200BD3442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1A1294EB2C31915000BD3442 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1A1294DE2C31915000BD3442 /* Project object */;
+}
