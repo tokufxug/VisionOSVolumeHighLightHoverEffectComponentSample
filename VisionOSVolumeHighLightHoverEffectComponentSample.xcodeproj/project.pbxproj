@@ -13,6 +13,7 @@
 		1A1294F22C31915100BD3442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1294F12C31915100BD3442 /* Assets.xcassets */; };
 		1A1294F52C31915100BD3442 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1294F42C31915100BD3442 /* Preview Assets.xcassets */; };
 		1A1295002C31915200BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1294FF2C31915200BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSampleTests.swift */; };
+		1A12950C2C31ACC500BD3442 /* toy_drummer_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1A12950B2C31ACC500BD3442 /* toy_drummer_idle.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		1A1294F62C31915100BD3442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A1294FB2C31915200BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionOSVolumeHighLightHoverEffectComponentSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A1294FF2C31915200BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionOSVolumeHighLightHoverEffectComponentSampleTests.swift; sourceTree = "<group>"; };
+		1A12950B2C31ACC500BD3442 /* toy_drummer_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = toy_drummer_idle.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		1A1294E82C31915000BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSample */ = {
 			isa = PBXGroup;
 			children = (
+				1A12950B2C31ACC500BD3442 /* toy_drummer_idle.usdz */,
 				1A1294ED2C31915000BD3442 /* VisionOSVolumeHighLightHoverEffectComponentSampleApp.swift */,
 				1A1294EF2C31915000BD3442 /* ContentView.swift */,
 				1A1294F12C31915100BD3442 /* Assets.xcassets */,
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A1294F52C31915100BD3442 /* Preview Assets.xcassets in Resources */,
+				1A12950C2C31ACC500BD3442 /* toy_drummer_idle.usdz in Resources */,
 				1A1294F22C31915100BD3442 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
